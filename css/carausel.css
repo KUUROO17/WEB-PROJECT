@@ -1,0 +1,52 @@
+.container-fluid .tulisan-cr {
+    font-size: 20px;
+    color: #10dc5e;
+    font-family: 'opensans';
+  }
+
+ .tul-cr{
+    font-family: 'opensans';
+    font-size: 14px;
+ }
+
+ .free-cr {
+    border: #a3a3a4;
+    border-radius: 4px;
+    background-color: #a3a3a4;
+    border-width: 2px;
+    border-style: dotted;
+    text-align: center;
+  }
+
+  .tuliscatering-cr{
+    position: relative;
+    right: 3rem;
+    font-size: 14px;
+  }
+
+  .tulis-cr{
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+  }
+
+  .tuleh-cr{
+    font-size: 14px;
+  }
+
+  .tuleh-cr i{
+    color: goldenrod;
+  }
+  
+  .card {
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+  }
+  

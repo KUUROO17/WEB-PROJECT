@@ -1,0 +1,63 @@
+@font-face {
+    font-family: lemon;
+    src: url(font/LemonMilk.otf);
+  
+    font-family: bayang;
+    src: url(font/ShadowsIntoLight-Regular.ttf);
+  
+    font-family: square;
+    src: url(font/SquarePeg-Regular.ttf);
+  
+    font-family: comic;
+    src: url(font/ComingSoon-Regular.ttf);
+  
+    font-family: quin;
+    src: url(font/Quintessential-Regular.ttf);
+  
+    font-family: open;
+    src: url(font/OpenSans/OpenSans-ExtraBold.ttf);
+  }
+  
+  body {
+    width: 90%;
+    min-height: 100vh;
+    background: linear-gradient(
+      to right,
+      rgb(255, 253, 254) 50%,
+      rgb(255, 255, 255) 75%,
+      #3bf3a6 50%,
+      #3bf3a6 100%
+    );
+  }
+  
+  .img-fluid {
+    width: 330px;
+    height: 330px;
+    position: relative;
+    left: 750px;
+    top: 150px;
+  }
+  
+  .btn {
+    width: 110px;
+    position: relative;
+    bottom: 310px;
+    left: 130px;
+  }
+  
+  .tuleh {
+    font-family: 'lemon';
+    position: relative;
+    bottom: 300px;
+    left: 80px;
+    color: #3bf3a6;
+  }
+  
+  .tulis {
+    font-family: 'open';
+    font-size: 25px;
+    position: relative;
+    left: 80px;
+    bottom: 150px;
+  }
+  

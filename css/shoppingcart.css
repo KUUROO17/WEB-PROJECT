@@ -1,0 +1,70 @@
+
+.shopping-cart table{
+   text-align: center;
+   width: 105%;
+}
+
+.shopping-cart table thead th{
+   padding:1rem;
+   font-size: 2rem;
+   color:var(--white);
+   background-color: var(--black);
+}
+
+.shopping-cart table tbody tr{
+
+   width: 10rem;
+}
+
+.shopping-cart table tr td{
+   border-bottom: var(--border);
+   padding:1rem;
+   font-size: 2rem;
+   color:var(--black);
+}
+
+.shopping-cart table input[type="number"]{
+   border: var(--border);
+   border-radius: 3rem;
+   padding:1rem 2rem;
+   font-size: 2rem;
+   color:var(--black);
+   width: 9rem;
+   height: 4rem;
+}
+
+.shopping-cart table input[type="submit"]{
+   padding:.5rem 1.5rem;
+   cursor: pointer;
+   font-size: 1rem;
+   background-color: var(--orange);
+   color:var(--white);
+   width: 7rem;
+   height: 4rem;
+   border-radius: 3rem;
+}
+
+.shopping-cart table input[type="submit"]:hover{
+   background-color: greenyellow;
+}
+
+.shopping-cart table .table-bottom{
+   background-color: var(--bg-color);
+}
+
+.shopping-cart .checkout-btn{
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.shopping-cart .checkout-btn a{
+   display: inline-block;
+   width: auto;
+}
+
+.shopping-cart .checkout-btn a.disabled{
+   pointer-events: none;
+   opacity: .5;
+   user-select: none;
+   background-color: var(--red);
+}

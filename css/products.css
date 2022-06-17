@@ -1,0 +1,212 @@
+.heading{
+  text-align: center;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color:var(--black);
+  margin-bottom: 2rem;
+}
+
+/* untuk header */
+.header1{
+  position: relative;
+  bottom: 22px;
+  right: 18px;
+  width: 103%;
+
+}
+
+/* untuk search box navbar */
+.box1 {
+    max-width: 350px;
+    width: 100%;
+  }
+  .box1 .search-box {
+    position: relative;
+    height: 35px;
+    max-width: 380px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .search-box input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    background: #fff;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    font-size: 12px;
+  }
+  .search-box .icon {
+    position: absolute;
+    right: -2px;
+    top: 0px;
+    width: 60px;
+    background: #3bf3a6;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0 25px 25px 0;
+  }
+
+  .search-box .icon i{
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .search-box button{
+    background-color: #3bf3a6;
+    position: relative;
+    bottom: 8px;
+    right: 2px;
+    height: 3px;
+  }
+
+  .header1 .bx {
+    font-size: 25px;
+    position: relative;
+    right: 50px;
+    color: #3bf3a6;
+  }
+
+ 
+
+/* style untuk  card */
+.products .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.products .box-container .box {
+  text-align: center;
+  width: 30rem;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  border-radius: 2rem;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.products .box-container .box:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+}
+
+.products .box-container .box img {
+  height: 15rem;
+}
+
+.products .box-container .box h3 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.products .box-container .box .price {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.nuleh {
+  font-size: 13px;
+  position: relative;
+  bottom: 20px;
+}
+
+.tul {
+  color: #a3a3a4;
+  position: relative;
+  bottom: 40px;
+}
+
+.makan {
+  position: relative;
+  bottom: 10px;
+  color: #a3a3a4;
+  font-size: 13px;
+}
+
+#bintang {
+  color: gold;
+}
+
+.jalan {
+  position: relative;
+  right: 20px;
+  color: #a3a3a4;
+}
+
+.rate {
+  color: #a3a3a4;
+}
+
+.keranjang {
+  text-align: center;
+  font-size: 13px;
+}
+
+/* untuk buttun add cart */
+.input-icons i {
+  position: relative;
+  top: 4.9ch;
+  right: 10ch;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/* punya cart masuk barang header products.php */
+.header1 .cart {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.header1  .cart span {
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  color: var(--blue);
+  font-size: 2rem;
+  position: relative;
+  right: 50px;
+  bottom: 3px;
+}
+
+
+
+
+@media (max-width: 450px) {
+  .heading {
+    font-size: 3rem;
+  }
+
+  .products .box-container{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

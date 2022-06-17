@@ -1,0 +1,61 @@
+@font-face {
+    font-family: lemon;
+    src: url(font/LemonMilkbold.otf);
+  
+    font-family: bayang;
+    src: url(font/ShadowsIntoLight-Regular.ttf);
+  
+    font-family: square;
+    src: url(font/SquarePeg-Regular.ttf);
+  
+    font-family: comic;
+    src: url(font/ComingSoon-Regular.ttf);
+  
+    font-family: quin;
+    src: url(font/Quintessential-Regular.ttf);
+  
+    font-family: open;
+    src: url(font/OpenSans/OpenSans-ExtraBold.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    font-family: 'square';
+  }
+  
+  .gambar {
+    position: absolute;
+    width: 450px;
+    height: 535px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    color: #fff;
+    padding: 10px;
+    font-family: 'lemon';
+    font-size: 23px;
+  }
+  
+  .gamba {
+    position: relative;
+    width: 150px;
+    top: 570px;
+    left: 90px;
+  }
+  
+  form {
+    position: relative;
+  
+    width: 530px;
+  }
+  
